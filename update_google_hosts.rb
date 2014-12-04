@@ -1,7 +1,6 @@
 #encoding: utf-8
 require 'open-uri'
 hosts_file = "/etc/hosts"
-#hosts_file  = "/Users/fangxiang/work/ruby/test/hosts"
 action = ARGV.size > 0 && ARGV[0] == 'delete' ? 'delete' : 'update'
 
 def read_hosts(file)
